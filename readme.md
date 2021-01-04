@@ -63,3 +63,19 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Setup Environment
+
+Ada beberapa langkah untuk mensetup diantaranya:
+
+1. composer install
+2. php artisan key:generate
+3. composer require yajra/laravel-datatables-oracle:"~8.0"
+4. rename .env-example menjadi .env, lalu sesuai kan isi file ENV tersebut
+5. php artisan migrate
+6. php artisan db:seed
+
+
+Untuk User Login 
+- user = Admin@gmail.com, pass = secret
+- user = Employee@gmail.com, pass = secret
